@@ -67,7 +67,7 @@ and generates negative tests covering all pairs within that forbidden combinatio
 
 ```
 cargo build --release          # Rust
-cc -O2 -o jenny jenny.c        # C
+cc -O3 -o jenny jenny.c        # C
 ```
 
 ## Test suite
