@@ -6,7 +6,7 @@ Given a set of dimensions (parameters) each with a fixed number of features
 n-tuple of features drawn from n distinct dimensions.
 
 Original C implementation by Bob Jenkins (March 2003, public domain).
-Rust translation in `src/`.
+Rust translation by Claude in `src/`.
 
 Documentation and theory: https://burtleburtle.net/bob/math/jenny.html
 
