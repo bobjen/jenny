@@ -20,8 +20,7 @@ slowly than exhaustive testing: covering all pairs of 10 parameters with
 
 ## Negative test cases (-e)
 
-jenny is believed to be the first covering-array tool to generate negative
-test cases.  The `-w` flag marks combinations that are *forbidden* (e.g.
+The `-w` flag marks combinations that are *forbidden* (e.g.
 invalid configurations).  The `-e` flag then generates additional test cases
 that deliberately land in those forbidden zones, so you can verify that your
 system correctly rejects them.
