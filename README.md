@@ -16,7 +16,7 @@ A covering array for n=2 (pairs) guarantees that every combination of any
 two parameter values appears in at least one test case.  For n=3 every
 triplet is covered, and so on.  The number of test cases grows much more
 slowly than exhaustive testing: covering all pairs of 10 parameters with
-10 values each takes roughly 25 tests instead of 10^10.
+10 values each takes 158 tests instead of 10^10.
 
 ## Negative test cases (-e)
 
